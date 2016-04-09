@@ -1,4 +1,4 @@
-# HashModernInspect
+# hash_modern_inspect
 
 Inspect Hash object as modern format.
 
