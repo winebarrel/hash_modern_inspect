@@ -23,6 +23,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'hash_modern_inspect'
 
 hash =  {
   foo: ['FOO', {baz: 100}],
