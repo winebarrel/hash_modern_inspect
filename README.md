@@ -2,6 +2,8 @@
 
 Inspect Hash object as modern format.
 
+[![Build Status](https://travis-ci.org/winebarrel/hash_modern_inspect.svg?branch=master)](https://travis-ci.org/winebarrel/hash_modern_inspect)
+
 ## Installation
 
 Add this line to your application's Gemfile:
