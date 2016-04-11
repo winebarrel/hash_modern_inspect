@@ -36,4 +36,10 @@ hash.modern_inspect
 
 hash.modern_inspect_without_brace
 #=> 'foo: ["FOO", {baz: 100}], bar: {zoo: 200}, "hoge"=>"piyo"'
+
+{}.modern_inspect_without_brace
+#=> "{}"
+
+{}.modern_inspect_without_brace(allow_empty: true)
+#=> ""
 ```
