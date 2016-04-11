@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = 'hash_modern_inspect'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = ['winebarrel']
   spec.email         = ['sgwr_dts@yahoo.co.jp']
 
