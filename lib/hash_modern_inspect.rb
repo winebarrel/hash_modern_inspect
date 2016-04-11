@@ -3,11 +3,11 @@ module HashModernInspect
     modern_inspect0(self)
   end
 
-  def modern_inspect_without_brace
-    if self.empty?
+  def modern_inspect_without_brace(options = {})
+    if self.empty? and not options[:allow_empty]
       self.inspect
     else
-      modern_inspect.sub(/\A\{/, '').sub(/\}\z/, '')
+      modern_inspect.sub(/\A\{/, '').sub(/\}\z/, '').strip
     end
   end
 
