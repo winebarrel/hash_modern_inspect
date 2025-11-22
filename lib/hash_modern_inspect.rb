@@ -1,3 +1,5 @@
+require 'stringio'
+
 module HashModernInspect
   def modern_inspect
     modern_inspect0(self)
@@ -12,7 +14,7 @@ module HashModernInspect
   end
 
   def modern_inspect0(obj)
-    buf = ''
+    buf = StringIO.new
 
     case obj
     when Array
@@ -51,7 +53,7 @@ module HashModernInspect
       buf << obj.inspect
     end
 
-    buf
+    buf.string
   end
 end
 Hash.include(HashModernInspect)
