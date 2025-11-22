@@ -1,9 +1,9 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = 'hash_modern_inspect'
-  spec.version       = '0.1.1'
+  spec.version       = '0.2.0'
   spec.authors       = ['winebarrel']
-  spec.email         = ['sgwr_dts@yahoo.co.jp']
+  spec.email         = ['sugawara@winebarrel.jp']
 
   spec.summary       = %q{Inspect Hash object as modern format.}
   spec.description   = %q{Inspect Hash object as modern format.}
