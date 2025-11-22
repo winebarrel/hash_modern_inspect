@@ -2,7 +2,7 @@
 
 Inspect Hash object as modern format.
 
-[![Build Status](https://travis-ci.org/winebarrel/hash_modern_inspect.svg?branch=master)](https://travis-ci.org/winebarrel/hash_modern_inspect)
+[![test](https://github.com/winebarrel/hash_modern_inspect/actions/workflows/test.yml/badge.svg)](https://github.com/winebarrel/hash_modern_inspect/actions/workflows/test.yml)
 
 ## Installation
 
